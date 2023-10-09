@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/BenquetProject/static/css/main.82590d97.css",
+    "main.js": "/BenquetProject/static/js/main.a65c5d4a.js",
+    "static/js/787.06b2feca.chunk.js": "/BenquetProject/static/js/787.06b2feca.chunk.js",
+    "static/media/Slider-Main.jpg": "/BenquetProject/static/media/Slider-Main.2b12b0ea2cf2c765e66f.jpg",
+    "static/media/Map.png": "/BenquetProject/static/media/Map.ffcd28405b52dad511aa.png",
+    "index.html": "/BenquetProject/index.html",
+    "main.82590d97.css.map": "/BenquetProject/static/css/main.82590d97.css.map",
+    "main.a65c5d4a.js.map": "/BenquetProject/static/js/main.a65c5d4a.js.map",
+    "787.06b2feca.chunk.js.map": "/BenquetProject/static/js/787.06b2feca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82590d97.css",
+    "static/js/main.a65c5d4a.js"
+  ]
+}
