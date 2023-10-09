@@ -1,0 +1,109 @@
+.contact_us{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgba(239, 222, 190, 0.795) ;
+    
+    
+    gap:20px;
+    padding: 20px;
+}
+.part-2{
+    display: flex;
+   gap: 30px;
+}
+
+.part-2-2{
+    display: flex;
+    gap: 30px;
+}
+.verticle-line{
+    
+    background-color: black;
+    width: 1px;
+    height: 33vh;
+   
+}
+.col-2{
+    line-height: 1;
+    >.heading{
+        font-size: medium;
+    }
+}
+.col-3{
+    line-height: 1;
+    
+
+}
+.forms{
+    width: 100%;
+   
+    >input{
+        padding: 3px;
+        margin-bottom: 5px;
+        width: 86%;
+    }
+    >button{
+        width: 90%;
+        background-color: red;
+        padding: 3px;
+        border: none;
+        height: 3vh;
+        cursor: pointer;
+    }
+}
+
+/* Reesponsive */
+
+@media only screen and (max-width: 600px) {
+    .contact_us{
+        flex-direction: column;
+
+    }
+   
+    .part-2{
+        gap: 5px;
+    }
+
+    .part-2-2{
+        gap: 10px;
+    }
+    .row-3{
+        >img{
+            width: 40vh;
+        }
+    }
+
+}@media only screen and (min-width: 601px) and (max-width: 768px) {
+
+
+    .row-3{
+        >img{
+            width: 30vw;
+        }
+    }
+    .part-2-2{
+        gap: 5px;
+    }
+    .row-1{
+        >img{
+            width: 35vw;
+        }
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Your tablet-specific CSS here */
+    .row-3{
+        >img{
+            width: 40vw;
+        }
+    }
+   
+    .row-1{
+        >img{
+            width: 35vw;
+        }
+    }
+
+}

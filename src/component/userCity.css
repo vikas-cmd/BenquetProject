@@ -1,0 +1,151 @@
+.subscriber{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./Map.png');
+   
+    
+}
+.headings{
+    line-height: 0.8;
+}
+.counter{
+    display: flex;
+    gap: 40px;
+    >div{
+        line-height: 10px;
+    }
+    >div h1{
+        color: red;
+    }
+    >div p{
+        font-size: x-large;
+    }
+
+}
+
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+.image{
+    >img{
+        width: 150px;
+        height: 25vh;
+    }
+}
+.subscriber{
+   padding: 3px;
+   height: 30vh;
+    
+    
+}
+
+.counter{
+    display: flex;
+    gap: 40px;
+    >div{
+        line-height: 10px;
+    }
+    >div h1{
+        
+        font-size:small
+    }
+    >div p{
+        font-size:medium;
+    }
+
+}
+.headings{
+    >h1{
+       
+        font-size:larger;
+    }
+    >p{
+        font-size:small ;
+    }
+}
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+
+    .image{
+        >img{
+            width: 255px;
+            height: 35vh;
+        }
+    }
+    .subscriber{
+       padding: 3px;
+       height: 40vh;
+        
+        
+    }
+    
+    .counter{
+        
+        gap: 40px;
+        >div{
+            line-height: 10px;
+        }
+        >div h1{
+            
+            font-size:4vw;
+        }
+        >div p{
+            font-size:larger;
+        }
+    
+    }
+    .headings{
+        >h1{
+           
+            font-size:2.8vh;
+        }
+        >p{
+            font-size:1.5vh ;
+        }
+    }
+    }
+
+    @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    
+        .image{
+            >img{
+                width: 300px;
+                height: 40vh;
+            }
+        }
+        .subscriber{
+           padding: 4px;
+           height: 45vh;
+            
+            
+        }
+        
+        .counter{
+            
+            
+            
+
+            >div h1{
+                
+                font-size:4vw;
+            }
+            >div p{
+                font-size:larger;
+            }
+        
+        }
+        .headings{
+            >h1{
+               
+                font-size:2.8vh;
+            }
+            >p{
+                font-size:1.5vh ;
+            }
+        }
+        }
+    
+

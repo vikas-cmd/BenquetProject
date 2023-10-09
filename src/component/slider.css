@@ -1,0 +1,96 @@
+.sliderr {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-image: url('./Slider-Main.jpg');
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: 100%;
+    height: 50vw;
+
+
+
+
+}
+
+.slider-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 0px;
+
+    >button {
+        width: 14vw;
+        background-color: rgb(231, 44, 1);
+        border-radius: 50px;
+        height: 9vh;
+        border: none;
+        color: white;
+        font-weight: 700;
+        font-size: medium;
+        padding: 10px;
+
+
+    }
+
+    >p {
+        font-size: 6vh;
+
+        >span {
+            font-weight: 800;
+            color: rgb(231, 44, 1);
+        }
+
+    }
+
+    margin-left: 100px;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width: 600px) {
+    /* Your mobile-specific CSS here */
+    /* Your styles for small devices go here */
+
+    .slider-main {
+        >button {
+
+            width: 40vw;
+            border-radius: 50px;
+            height: 7vh;
+            font-weight: 700;
+            font-size: medium;
+
+
+        }
+
+        >p {
+            font-size: 6vw;
+        }
+    }
+
+    .sliderr {
+        height: 40vh;
+        background-size: 100% 100%;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1023px) {
+    /* Your tablet-specific CSS here */
+
+    .slider-main {
+        >button {
+
+            width: 20vw;
+            border-radius: 50px;
+            height: 8vh;
+            font-weight: 700;
+            font-size: medium;
+
+
+        }
+    }
+}

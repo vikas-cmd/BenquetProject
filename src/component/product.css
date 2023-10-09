@@ -1,0 +1,198 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    position: relative;
+    border: 2px solid rgba(240, 237, 237, 0.966);
+    border-radius: 10px;
+
+
+
+
+
+
+
+
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    background-color: rgba(240, 237, 237, 0.966);
+    height: 20vh;
+
+
+
+
+}
+
+
+
+
+.post {
+    display: flex;
+    flex-direction: column;
+    color: rgba(103, 101, 101, 0.858);
+    ;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    height: 50%;
+    width: 80%;
+    background-color: white;
+
+    >p {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 1vh;
+        color: rgba(103, 101, 101, 0.858);
+        font-weight: 500;
+
+        >span {
+            color: rgba(7, 164, 164, 0.961);
+            font-weight: 500;
+        }
+    }
+}
+
+.post_info {
+    display: flex;
+    flex-direction: column;
+    line-height: 0%;
+    margin-left: 3vw;
+
+    >.button {
+        border: none;
+        background-color: transparent;
+        color: rgba(7, 164, 164, 0.961);
+        cursor: pointer;
+
+
+    }
+
+}
+
+.text {
+    line-height: 5px;
+}
+
+.line-height {
+    line-height: 1vh;
+
+    >h2 {
+        color: black;
+    }
+
+    >h3 {
+        color: rgb(63, 244, 163);
+
+
+    }
+
+
+
+}
+
+
+/*Responsive*/
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Your styles for medium devices go here */
+.post{
+
+
+}
+.comment{
+    height: 25vh;
+}
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    /* Your styles for small devices go here */
+
+
+
+
+    .img {
+
+
+        width: 100%;
+        
+    }
+    .comment {
+        
+        
+       
+        height: 30vh;
+    
+    
+    
+    
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    /* Your styles for extra small devices go here */
+
+    .post {
+        color: rgba(103, 101, 101, 0.858);
+        ;
+    
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 5px;
+    
+        height: 55%;
+        width: 80%;
+        background-color: white;
+    
+        >p {
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 1vh;
+            color: rgba(103, 101, 101, 0.858);
+            font-weight: 500;
+    
+            >span {
+                color: rgba(7, 164, 164, 0.961);
+                font-weight: 500;
+            }
+        }
+    }
+
+
+
+
+    .post_info {
+        display: flex;
+        flex-direction: column;
+        line-height: 0%;
+        margin-left: 3vw;
+    
+        >.button {
+            border: none;
+            background-color: transparent;
+            color: rgba(7, 164, 164, 0.961);
+            cursor: pointer;
+    
+    
+        }
+    
+    }
+}

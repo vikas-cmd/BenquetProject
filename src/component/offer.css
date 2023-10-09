@@ -1,0 +1,95 @@
+.offers_heading{
+    display: flex;
+    align-items: center;
+    margin-left: 13vw;
+    margin-top: 5vh;
+    gap: 100px;
+    
+    
+}
+.offer_boxes{
+    display:flex;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    padding-bottom: 10vh;
+    
+}
+.boxx{
+    font-display: flex;
+    
+    width: 18%;
+    background-color: rgb(255, 208, 0);
+    border: none;
+    border-radius: 50px 50px 0 50px;
+    padding: 30px;
+
+}
+.topp{
+    display: flex;
+    align-items: center;
+    gap: 7%;
+   
+    
+
+}
+.img1{
+    >img{
+        width: 60px;
+    }
+}
+.name{
+    >p{
+        color: rgb(81, 79, 79);
+
+    }
+}
+.descri{
+    >p{
+        color: rgb(81, 79, 79);
+    }
+}
+.line_bar{
+    border: 1px solid rgba(19, 4, 228, 0.687);
+    background-color:rgba(19, 4, 228, 0.687) ;
+    width: 20vw;
+    height: 1px;
+
+}
+.line_bar2{
+    border: 1px solid rgba(146, 108, 233, 0.687);
+    width: 100%;
+
+}
+.bg-color1{
+    background-color: rgba(0, 255, 255, 0.692);
+    color: white;
+}
+.bg-color2{
+    background-color: orangered;
+    color: white;
+}
+
+
+
+
+/*Responsive Code*/
+
+
+@media only screen and (max-width: 600px) {
+
+    .offer_boxes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .boxx{
+        width: 75%;
+        margin: 0 10px;
+    }
+
+}
+
+

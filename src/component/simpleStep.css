@@ -1,0 +1,101 @@
+.simple_step-heading{
+
+    >h1{text-align: center;}
+}
+.simple_steps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-left: 20px;
+   
+    >.img{
+        width: 500px;
+    }
+}
+.step1{
+    display: flex;
+    flex-direction: column;
+    >.icon{
+        margin:0 8vw
+    }
+    
+
+}
+.line{
+    width: 180px;
+   
+    background-color: red;
+    border: 1px solid red;
+}
+.line2{
+    width: 180px;
+   
+    background-color:orange;
+    border: 1px solid orange;
+}
+.line3{
+    width: 180px;
+   
+    background-color:rgba(82, 204, 244, 0.897);
+    border: 1px solid rgba(82, 204, 244, 0.897);
+}
+.desc{
+    margin:0 8vw
+}
+
+
+
+
+/*Responsive*/
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    /* Your styles for small devices go here */
+    .simple_steps{
+        
+       
+      
+        >.img{
+            width: 50vw;
+            
+        }
+    }
+    .icon{
+        >img{
+        width: 35px;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    /* Your styles for extra small devices go here */
+    .simple_steps{
+        display: flex;
+        
+
+        
+        margin-left: 20px;
+        height: 30vh;
+         >.img{
+             width: 15vh;
+            
+             margin-top: 50px;
+             
+         }
+         .desc{
+            >h1{
+            font-size:larger;
+
+         }
+         >p{
+            font-size:x-small;
+         }
+        }
+         
+     }
+     .icon{
+         >img{
+         width: 25px;
+         }
+     }
+    
+ }
